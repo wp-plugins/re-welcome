@@ -18,8 +18,7 @@ standard WordPress password generator.
 
 == Installation ==
 
-1. Upload the containing folder to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Install as you would any plugin.
 
 == Frequently Asked Questions ==
 

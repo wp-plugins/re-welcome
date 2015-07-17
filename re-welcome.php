@@ -35,12 +35,11 @@ function rewelcome_new_user_notification() {
 	}
 }
 function rewelcome_row_action($actions, $user_object) {
-	if (in_array('pending', $user_object->roles))
-	{
-		$nonce = wp_create_nonce( 'rewelcome' ); 
-		$link = admin_url( "users.php?user={$user_object->ID}&_wpnonce=$nonce" );
-		$actions['rewelcome'] = "<a href='$link'>Resend Welcome Email</a>";
-	}
+//	if (in_array('pending', $user_object->roles)) { Only show for specific roles, such as Formidable Pro pending status
+	$nonce = wp_create_nonce( 'rewelcome' ); 
+	$link = admin_url( "users.php?user={$user_object->ID}&_wpnonce=$nonce" );
+	$actions['rewelcome'] = "<a href='$link'>Resend Welcome Email</a>";
+//	}
 	return $actions;
 }
 

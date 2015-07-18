@@ -2,7 +2,7 @@
 /*
 Plugin Name: Re-Welcome
 Description: Re-Send welcome email from the Users list
-Version:     0.1
+Version:     0.2
 Author:      Andrew J Klimek
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html

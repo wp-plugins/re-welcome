@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: andrewklimek, buzinky
+Contributors: buzinky
 Donate link: http://ambientsleepingpill.com/
 Tags: welcome, email, resend
 Requires at least: 2.8.0

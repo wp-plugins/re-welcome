@@ -21,6 +21,8 @@ with a new password generated using the standard WordPress password generator.
 
 == Frequently Asked Questions ==
 
+Nothing's been asked yet!
+
 == Screenshots ==
 
 1. A new row action on the All Users screen.  Nothing else to see!
